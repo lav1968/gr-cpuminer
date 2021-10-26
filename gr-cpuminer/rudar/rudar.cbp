@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="rudar" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/rudar" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../Makefile" />
+		<Unit filename="../algo-gate-api.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo-gate-api.h" />
+		<Unit filename="../algo/blake/blake-hash-4way.h" />
+		<Unit filename="../algo/blake/blake512-hash-4way.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/blake/sph_blake.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/blake/sph_blake.h" />
+		<Unit filename="../algo/bmw/bmw-hash-4way.h" />
+		<Unit filename="../algo/bmw/bmw512-hash-4way.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/bmw/sph_bmw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/bmw/sph_bmw.h" />
+		<Unit filename="../algo/cubehash/cube-hash-2way.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/cubehash/cube-hash-2way.h" />
+		<Unit filename="../algo/cubehash/cubehash_sse2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/cubehash/cubehash_sse2.h" />
+		<Unit filename="../algo/echo/aes_ni/api.h" />
+		<Unit filename="../algo/echo/aes_ni/hash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/echo/aes_ni/hash_api.h" />
+		<Unit filename="../algo/echo/echo-hash-4way.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/echo/echo-hash-4way.h" />
+		<Unit filename="../algo/echo/sph_echo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/echo/sph_echo.h" />
+		<Unit filename="../algo/fugue/fugue-aesni.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/fugue/fugue-aesni.h" />
+		<Unit filename="../algo/fugue/sph_fugue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/fugue/sph_fugue.h" />
+		<Unit filename="../algo/gr/cryptonote/cryptonight.h" />
+		<Unit filename="../algo/gr/cryptonote/soft_aes.h" />
+		<Unit filename="../algo/gr/gr-4way.cpp" />
+		<Unit filename="../algo/gr/gr-gate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/gr/gr-gate.h" />
+		<Unit filename="../algo/gr/gr.cpp" />
+		<Unit filename="../algo/groestl/aes_ni/api.h" />
+		<Unit filename="../algo/groestl/aes_ni/brg_endian.h" />
+		<Unit filename="../algo/groestl/aes_ni/groestl-intr-aes.h" />
+		<Unit filename="../algo/groestl/aes_ni/groestl256-intr-aes.h" />
+		<Unit filename="../algo/groestl/aes_ni/hash-groestl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/groestl/aes_ni/hash-groestl.h" />
+		<Unit filename="../algo/groestl/aes_ni/hash-groestl256.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/groestl/aes_ni/hash-groestl256.h" />
+		<Unit filename="../algo/groestl/groestl512-hash-4way.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/groestl/groestl512-hash-4way.h" />
+		<Unit filename="../algo/groestl/groestl512-intr-4way.h" />
+		<Unit filename="../algo/groestl/sph_groestl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/groestl/sph_groestl.h" />
+		<Unit filename="../algo/hamsi/hamsi-hash-4way.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/hamsi/hamsi-hash-4way.h" />
+		<Unit filename="../algo/hamsi/sph_hamsi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/hamsi/sph_hamsi.h" />
+		<Unit filename="../algo/hamsi/sph_hamsi_helper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/jh/jh-hash-4way.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/jh/jh-hash-4way.h" />
+		<Unit filename="../algo/jh/sph_jh.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/jh/sph_jh.h" />
+		<Unit filename="../algo/keccak/keccak-hash-4way.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/keccak/keccak-hash-4way.h" />
+		<Unit filename="../algo/keccak/keccak-macros.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/keccak/sph_keccak.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/keccak/sph_keccak.h" />
+		<Unit filename="../algo/luffa/luffa-hash-2way.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/luffa/luffa-hash-2way.h" />
+		<Unit filename="../algo/luffa/luffa_for_sse2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/luffa/luffa_for_sse2.h" />
+		<Unit filename="../algo/sha/aes_helper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/sha/brg_types.h" />
+		<Unit filename="../algo/sha/md_helper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/sha/sha-hash-4way.h" />
+		<Unit filename="../algo/sha/sha2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/sha/sha256-hash-2way-ni.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/sha/sha256-hash-4way.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/sha/sha256-hash-opt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/sha/sha256-hash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/sha/sha256-hash.h" />
+		<Unit filename="../algo/sha/sha256d.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/sha/sha256d.h" />
+		<Unit filename="../algo/sha/sha3-defs.h" />
+		<Unit filename="../algo/sha/sha3_common.h" />
+		<Unit filename="../algo/sha/sph_sha2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/sha/sph_sha2.h" />
+		<Unit filename="../algo/sha/sph_types.h" />
+		<Unit filename="../algo/shabal/shabal-hash-4way.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/shabal/shabal-hash-4way.h" />
+		<Unit filename="../algo/shabal/sph_shabal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/shabal/sph_shabal.h" />
+		<Unit filename="../algo/shavite/shavite-hash-2way.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/shavite/shavite-hash-2way.h" />
+		<Unit filename="../algo/shavite/shavite-hash-4way.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/shavite/shavite-hash-4way.h" />
+		<Unit filename="../algo/shavite/sph-shavite-aesni.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/shavite/sph_shavite.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/shavite/sph_shavite.h" />
+		<Unit filename="../algo/simd/nist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/simd/nist.h" />
+		<Unit filename="../algo/simd/simd-compat.h" />
+		<Unit filename="../algo/simd/simd-hash-2way.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/simd/simd-hash-2way.h" />
+		<Unit filename="../algo/simd/simd_iv.h" />
+		<Unit filename="../algo/simd/vector.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/simd/vector.h" />
+		<Unit filename="../algo/skein/skein-hash-4way.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/skein/skein-hash-4way.h" />
+		<Unit filename="../algo/skein/sph_skein.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/skein/sph_skein.h" />
+		<Unit filename="../algo/whirlpool/md-helper-4way.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/whirlpool/md_helper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/whirlpool/sph_whirlpool.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/whirlpool/sph_whirlpool.h" />
+		<Unit filename="../algo/whirlpool/whirlpool-hash-4way.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../algo/whirlpool/whirlpool-hash-4way.h" />
+		<Unit filename="../api.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../api/index.php" />
+		<Unit filename="../api/local-sample.php" />
+		<Unit filename="../api/websocket.htm" />
+		<Unit filename="../asm/aesb-x64.S" />
+		<Unit filename="../asm/aesb-x86.S" />
+		<Unit filename="../asm/neoscrypt_asm.S" />
+		<Unit filename="../asm/scrypt-arm.S" />
+		<Unit filename="../asm/scrypt-x64.S" />
+		<Unit filename="../asm/scrypt-x86.S" />
+		<Unit filename="../asm/sha2-arm.S" />
+		<Unit filename="../asm/sha2-x64.S" />
+		<Unit filename="../asm/sha2-x86.S" />
+		<Unit filename="../bitcoin-config.h" />
+		<Unit filename="../compat.h" />
+		<Unit filename="../compat/getopt/getopt.h" />
+		<Unit filename="../compat/getopt/getopt_long.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../compat/gettimeofday.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../compat/inttypes.h" />
+		<Unit filename="../compat/jansson/config.h" />
+		<Unit filename="../compat/jansson/dump.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../compat/jansson/error.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../compat/jansson/hashtable.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../compat/jansson/hashtable.h" />
+		<Unit filename="../compat/jansson/jansson.h" />
+		<Unit filename="../compat/jansson/jansson_config.h" />
+		<Unit filename="../compat/jansson/jansson_private.h" />
+		<Unit filename="../compat/jansson/load.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../compat/jansson/memory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../compat/jansson/pack_unpack.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../compat/jansson/strbuffer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../compat/jansson/strbuffer.h" />
+		<Unit filename="../compat/jansson/strconv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../compat/jansson/utf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../compat/jansson/utf.h" />
+		<Unit filename="../compat/jansson/util.h" />
+		<Unit filename="../compat/jansson/value.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../compat/portable_endian.h" />
+		<Unit filename="../compat/pthreads/pthread.h" />
+		<Unit filename="../compat/pthreads/sched.h" />
+		<Unit filename="../compat/stdbool.h" />
+		<Unit filename="../compat/sys/time.h" />
+		<Unit filename="../compat/unistd.h" />
+		<Unit filename="../compat/winansi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../compat/winansi.h" />
+		<Unit filename="../compile" />
+		<Unit filename="../config.guess" />
+		<Unit filename="../config.status" />
+		<Unit filename="../config.sub" />
+		<Unit filename="../configure" />
+		<Unit filename="../configure.ac" />
+		<Unit filename="../cpu-miner.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../cpuminer-config.h" />
+		<Unit filename="../cpuminer-config.h.in" />
+		<Unit filename="../cpuminer.1" />
+		<Unit filename="../crypto/c_keccak.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../crypto/c_keccak.h" />
+		<Unit filename="../crypto/hash-ops.h" />
+		<Unit filename="../crypto/int-util.h" />
+		<Unit filename="../depcomp" />
+		<Unit filename="../elist.h" />
+		<Unit filename="../install-sh" />
+		<Unit filename="../miner.h" />
+		<Unit filename="../missing" />
+		<Unit filename="../msr_mod.cpp" />
+		<Unit filename="../msr_mod.h" />
+		<Unit filename="../nomacro.pl" />
+		<Unit filename="../simd-utils/intrlv.h" />
+		<Unit filename="../simd-utils/simd-128.h" />
+		<Unit filename="../simd-utils/simd-256.h" />
+		<Unit filename="../simd-utils/simd-512.h" />
+		<Unit filename="../simd-utils/simd-64.h" />
+		<Unit filename="../simd-utils/simd-int.h" />
+		<Unit filename="../stamp-h1" />
+		<Unit filename="../sysinfos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../virtual_memory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../virtual_memory.h" />
+		<Unit filename="../winbuild-cross.sh" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

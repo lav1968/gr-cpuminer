@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1634150053 source:/home/lav/archiso/cpuminer-gr-avx2-1.2.2/algo/blake/blake512-hash-4way.c
+	<stddef.h>
+	<string.h>
+	<limits.h>
+	"blake-hash-4way.h"
+
+1634150053 /home/lav/archiso/cpuminer-gr-avx2-1.2.2/algo/blake/blake-hash-4way.h
+	"algo/sha/sph_types.h"
+	"simd-utils.h"
+	<stddef.h>
+
