@@ -229,7 +229,7 @@ call :StartMiner
 
 :StartMiner
 echo If file is "missing" please check if Windows Defender or AV did not block/remove it.
-binaries\cpuminer-!CPU_INST!.exe --config=config.json
+bin\cpuminer-!CPU_INST!.exe --config=config.json
 timeout 5 > NUL
 goto StartMiner
 
